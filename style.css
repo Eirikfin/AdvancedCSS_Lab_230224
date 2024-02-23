@@ -19,3 +19,11 @@ li{
     display: inline;
     margin-right: 1.5em; 
 }
+.suggestion-container{
+    display: flex;
+}
+.suggestion-cards{
+    display: flex;
+    flex: 1;
+    width: 20%;
+}

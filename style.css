@@ -1,21 +1,29 @@
+main{
+    margin: 0 auto;
+    max-width: 80%
+}
+
 .nav-container{
   border-bottom: solid gray 1px;
-  display: flexbox;
+  display: flex;
   width: 100%;
   height: 5em;
 }
 .nav-logo{
     display: flex;
-    justify-content: flex-start;
+    flex: 1;
+    justify-content: start;
     max-width: 10%;
     height: 95%;
 }
 .nav-options{
     display: flex;
-    justify-content: flex-end;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
     max-height: 95% ;
 }
-li{
+.nav-options li{
     display: inline;
     margin-right: 1.5em; 
 }
@@ -26,4 +34,24 @@ li{
     display: flex;
     flex: 1;
     width: 20%;
+
+.Search__logo {
+    margin-top: 20px;
 }
+.Search__logo input[type=text] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+}
+.Search__logo button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;

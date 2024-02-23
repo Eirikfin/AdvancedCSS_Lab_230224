@@ -27,6 +27,13 @@ main{
     display: inline;
     margin-right: 1.5em; 
 }
+.suggestion-container{
+    display: flex;
+}
+.suggestion-cards{
+    display: flex;
+    flex: 1;
+    width: 20%;
 
 .Search__logo {
     margin-top: 20px;
@@ -48,4 +55,3 @@ main{
 
 ul {
     list-style-type: none;
-}
